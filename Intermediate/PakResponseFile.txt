@@ -1,0 +1,5 @@
+"C:/Program Files/Epic Games/MechWarrior5Editor/MW5Mercs/Plugins/Piratetech_Light/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/Piratetech_Light/Content/*" "../../../MW5Mercs/Plugins/Piratetech_Light/Content/"
+"C:/Program Files/Epic Games/MechWarrior5Editor/MW5Mercs/Plugins/Piratetech_Light/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/Piratetech_Light/ModOverride/*" "../../../MW5Mercs/Content/"
+"C:/Program Files/Epic Games/MechWarrior5Editor/MW5Mercs/Plugins/Piratetech_Light/ModOverride/WwiseAudio/*" "../../../MW5Mercs/Content/WwiseAudio/"
+"C:/Program Files/Epic Games/MechWarrior5Editor/MW5Mercs/Plugins/Piratetech_Light/Config/*" "../../../MW5Mercs/Config/"
+"C:/Program Files/Epic Games/MechWarrior5Editor/MW5Mercs/Plugins/Piratetech_Light/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/Piratetech_Light/AssetRegistry.bin" "../../../MW5Mercs/Plugins/Piratetech_Light/"
