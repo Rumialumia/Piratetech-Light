@@ -1,0 +1,542 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Piratetech_Light/Wasp/Light/42and19/Wasp/Wasp_MDL.Wasp_MDL'",
+	"bReadFromFileOnSave": false,
+	"mechStats":
+	{
+		"keyName": "ENF-4P",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "ENF-4P",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 20,
+			"baseTons": 0,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 30000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 350000,
+					"centerTorso": 1000000,
+					"sideTorso": 100000,
+					"arm": 12500,
+					"leg": 17500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 0,
+			"baseCoolingRate": 0
+		},
+		"moveStats":
+		{
+			"topSpeed": 0,
+			"minSpeed": 0,
+			"reverseTopSpeed": 1498.5,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 85.943702697753906,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 108,
+				"pitch": 67.5
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": true,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -125,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 125,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 270,
+				"pitch": 270
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -10,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 10,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "ferrofibrousarmortype",
+				"structureType": "endosteeltype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": false,
+				"engineRating": 250,
+				"bXLEngine": false
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"None",
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"None",
+						"None",
+						"None",
+						"None",
+						"None",
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC20_Standard_AmmoEquipment.AC20_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC20_Standard_AmmoEquipment.AC20_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC20_Standard_AmmoEquipment.AC20_Standard_AmmoEquipment",
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"None",
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"None",
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"None",
+						"None"
+					],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"None",
+						"None"
+					],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 12,
+			"leftTorso": 10,
+			"rightTorso": 10,
+			"leftArm": 6,
+			"rightArm": 6,
+			"leftLeg": 8,
+			"rightLeg": 8
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 24,
+			"leftTorso": 20,
+			"rightTorso": 20,
+			"leftArm": 12,
+			"rightArm": 12,
+			"leftLeg": 16,
+			"rightLeg": 16
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Light.Wasp.WSP-1A"
+	},
+	"chassisFullName": "Wasp",
+	"variantName": "WSP-1A",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:WSP-1A_Loadout_1"
+	},
+	"mechTexture": "/Piratetech_Light/Icons/Wasp.Wasp",
+	"targetComponent": "/Piratetech_Light/Wasp/Light/42and19/Wasp/Wasp_Target.Wasp_Target_C",
+	"description": "The classic WSP-1A had a ground speed that could be considered lackluster when compared to many modern light 'Mechs, but this was offset by its jump capability. While carrying heavier weapons than 'Mechs like the Locust, the Wasp would generally only engage other light 'Mechs, using its jump capabilities to avoid conflicts with larger foes. The Wasp was also used in the role of raider because of its ability to hit and fade in rough terrain.",
+	"selectedWeaponHardPoints": [
+		"Weapon_Right_Hand_EH1_MediumLaser",
+		"Leg_Left_Weapon_MH1_SRM2"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": false,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:FerroFibrousArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:EndoSteelStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class5"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Optics_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Targetting_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:LifeSupport_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Sensor_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Cockpit_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Engine_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Coolant_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Structure_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Armor_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Gyro_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Shoulder_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftArm": 1,
+					"RightArm": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:UpperArmActuator_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftArm": 1,
+					"RightArm": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:LowerArmActuator_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftArm": 1,
+					"RightArm": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Hand_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftArm": 1,
+					"RightArm": 0
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Hip_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftLeg": 1,
+					"RightLeg": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:UpperLegActuator_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftLeg": 1,
+					"RightLeg": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:LowerLegActuator_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftLeg": 1,
+					"RightLeg": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Foot_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftLeg": 1,
+					"RightLeg": 1
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 6,
+					"CenterTorso": 7,
+					"LeftTorso": 12,
+					"LeftArm": 12,
+					"LeftLeg": 6,
+					"RightTorso": 12,
+					"RightArm": 12,
+					"RightLeg": 6
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:Quirk_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 7
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass5_SlotType"
+				},
+				"slotCounts":
+				{
+					"LeftTorso": 1,
+					"RightTorso": 1,
+					"CenterTorso": 2,
+					"LeftLeg": 1,
+					"RightLeg": 1
+				}
+			}
+		],
+		"internalEquipment": [],
+		"totalTraitSlots": 0
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:MechRefitCostsDefault"
+	},
+	"engineRating": 120,
+	"bXLEngine": false,
+	"baseChassisCost": 307200,
+	"salvageShareCost": 4,
+	"bIsHeroMech": false,
+	"bIsDefaultVariant": false
+}
