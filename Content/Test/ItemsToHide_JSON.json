@@ -1,0 +1,71 @@
+[
+	{
+		"Name": "Data",
+		"BAP Data":
+		{
+			"Id":
+			{
+				"PrimaryAssetType":
+				{
+					"Name": "MWBAPDataAsset"
+				},
+				"PrimaryAssetName": "BeagleActiveProbe"
+			}
+		},
+		"ECM Data":
+		{
+			"Id":
+			{
+				"PrimaryAssetType":
+				{
+					"Name": "MWECMDataAsset"
+				},
+				"PrimaryAssetName": "Pirate_ECM"
+			}
+		},
+		"Heatsink Data":
+		{
+			"Id":
+			{
+				"PrimaryAssetType":
+				{
+					"Name": "MWHeatSinkDataAsset"
+				},
+				"PrimaryAssetName": "DoubleHeatSink"
+			}
+		},
+		"Masc Data":
+		{
+			"Id":
+			{
+				"PrimaryAssetType":
+				{
+					"Name": "MWMASCDataAsset"
+				},
+				"PrimaryAssetName": "MASC_MKI"
+			}
+		},
+		"Weapon Data":
+		{
+			"Id":
+			{
+				"PrimaryAssetType":
+				{
+					"Name": "MWAMSWeaponDataAsset"
+				},
+				"PrimaryAssetName": "AntiMissileSystem"
+			}
+		},
+		"Mech Data":
+		{
+			"Id":
+			{
+				"PrimaryAssetType":
+				{
+					"Name": "MWMechDataAsset"
+				},
+				"PrimaryAssetName": "ARC-T_MDA"
+			}
+		}
+	}
+]
